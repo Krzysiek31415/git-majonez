@@ -1,0 +1,89 @@
+ 1228  cd Pulpit
+ 1229  mkdir git-majonez
+ 1230  cd git-majonez/
+ 1231  git init
+ 1232  ls -a
+ 1233  cd .git
+ 1234  cd .
+ 1235  cd -
+ 1236  cd ..
+ 1237  clear
+ 1238  touch main.cpp
+ 1239  g++ main.cpp 
+ 1240  ./a.out
+ 1241  rm a.out 
+ 1242  git status
+ 1243  git config
+ 1244  git config --global -l
+ 1245  git config --local -l
+ 1246  git add main.cpp 
+ 1247  git status
+ 1248  git commit -m"Initial commit"
+ 1249  git status
+ 1250  git log
+ 1251  echo #include<iostream> int main(){std::cout<<"Hello World";return 0;} > main.cpp 
+ 1252  less main.cpp 
+ 1253  cat main.cpp 
+ 1254  git status
+ 1255  echo #include<iostream> int main(){std::cout<<"Hello World";return 0;} >> main.cpp 
+ 1256  git status 
+ 1257  git add .
+ 1258  git status
+ 1259  git commit -m"Farewell changed"
+ 1260  git log
+ 1261  git remote add origin https://github.com/Krzysiek31415/git-majonez.git
+ 1262  git branch -M main
+ 1263  git branch
+ 1264  git branch -M master
+ 1265  git branch
+ 1266  git push -u origin master
+ 1267  git log
+ 1268  git branch cs
+ 1269  go
+ 1270  git branch
+ 1271  git checkout cs
+ 1272  git log
+ 1273  gitk &
+ 1274  git reset a91398f23f3d2f26a20c539a40ebac4fc6c15d64
+ 1275  git log
+ 1276  git status
+ 1277  git reset --hard a91398f23f3d2f26a20c539a40ebac4fc6c15d64
+ 1278  git log
+ 1279  git status
+ 1280  cat main.cpp 
+ 1281  git branch
+ 1282  cat main.cpp 
+ 1283  git checkout master 
+ 1284  git branch
+ 1285  git status
+ 1286  git add main.cpp 
+ 1287  git commit -m"Greetings"
+ 1288  cat main.cpp 
+ 1289  git checkout master
+ 1290  cat main.cpp 
+ 1291  git checkout cs
+ 1292  git push origin cs
+ 1293  git status
+ 1294  git checkout master
+ 1295  git checkout cs
+ 1296  git checkout master
+ 1297  git log
+ 1298  git checkout cs
+ 1299  git log
+ 1300  git log  --pretty=oneline --graph
+ 1301  git checkout cs
+ 1302  git log  --pretty=oneline --graph
+ 1303  git checkout master
+ 1304  git checkout cs
+ 1305  git checkout master
+ 1306  git merge cs
+ 1307  git status
+ 1308  git add .
+ 1309  git status
+ 1310  git commit 
+ 1311  git status
+ 1312  git log  --pretty=oneline --graph
+ 1313  history |  tail -n40
+ 1314  history |  tail -n80
+ 1315  history |  tail -n100
+ 1316  history |  tail -n89 >> history.txt
